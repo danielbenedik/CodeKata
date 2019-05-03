@@ -1,2 +1,2 @@
 # CodeKata
-Each folder is a solution to the problem.
+Each folder is a solution to a problem.
