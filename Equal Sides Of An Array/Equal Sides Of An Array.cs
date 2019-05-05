@@ -16,7 +16,7 @@ public class Kata
     {
         
         int countLeft = 0;
-        int countRithg = arr.Sum();
+        int countRight = arr.Sum();
 
         for (int i=0; i < arr.Length; i++)
         {
@@ -24,9 +24,9 @@ public class Kata
 
             countLeft += arr[i];
             if (i > 0)
-                countRithg -= arr[i - 1];
+                countRight -= arr[i - 1];
 
-            if (countLeft == countRithg)
+            if (countLeft == countRight)
                 return (i);
 
         }
